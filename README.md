@@ -48,10 +48,6 @@ pip3 install librosa
 
 ```
 
- 
-```pip uninstall setuptools
-pip install setuptools```
-
 **Get cuda version** 
 `cat /usr/local/cuda-10.2/version.txt` 
 
