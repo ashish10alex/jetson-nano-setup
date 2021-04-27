@@ -25,7 +25,7 @@ sudo apt-get install git cmake
 sudo apt-get install libatlas-base-dev gfortran
 sudo apt-get install libhdf5-serial-dev hdf5-tools
 sudo apt-get install python3-dev
-pip3 install scipy-
+pip3 install scipy
 ```
 
 ### Install sounfile, librosa
@@ -34,7 +34,7 @@ pip3 install scipy-
 sudo pip3 install --upgrade setuptools
 sudo pip3 install cython
 sudo apt-get install llvm-7
-sudo pip3 install llvmlite #this might get an error
+sudo pip3 install llvmlite #this might get an error but doesnt effect installation
 sudo apt-get install libblas-dev liblapack-dev libatlas-base-dev gfortran
 
 #Incase if this installation throws LLVM_CONFIG not found, then create the ln for the llvm-config-7 as below. 
