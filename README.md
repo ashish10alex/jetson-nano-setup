@@ -48,15 +48,15 @@ pip3 install librosa
 
 ```
 
-**Make sure you have** 
+ 
 ```pip uninstall setuptools
 pip install setuptools```
 
 **Get cuda version** 
 `cat /usr/local/cuda-10.2/version.txt` 
 
-**Unable to install torchaudio tried -** 
+**Unable to install torchaudio tried  **
 
-- `pip3 install torchaudio`
-- bulding from source
-- A workaround has been mentioned here - [https://github.com/pytorch/audio/issues/658](https://github.com/pytorch/audio/issues/658)
+`pip3 install torchaudio` wont work
+Alternate bulding from source will also throw an error - 
+A workaround has been mentioned here - [https://github.com/pytorch/audio/issues/658](https://github.com/pytorch/audio/issues/658)
