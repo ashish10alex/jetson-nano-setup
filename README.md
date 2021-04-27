@@ -29,6 +29,7 @@ pip3 install scipy
 ```
 
 ### Install sounfile, librosa
+Ref - https://learninone209186366.wordpress.com/2019/07/24/how-to-install-the-librosa-library-in-jetson-nano-or-aarch64-module/
 
 ```bash
 sudo pip3 install --upgrade setuptools
