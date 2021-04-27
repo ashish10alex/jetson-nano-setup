@@ -56,3 +56,6 @@ pip3 install librosa
 `pip3 install torchaudio` wont work
 Alternate bulding from source will also throw an error - 
 A workaround has been mentioned here - [https://github.com/pytorch/audio/issues/658](https://github.com/pytorch/audio/issues/658)
+
+### View gpu stats - nvidia-smi command doesnt work
+https://github.com/rbonghi/jetson_stats
