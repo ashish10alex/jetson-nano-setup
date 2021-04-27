@@ -1,8 +1,6 @@
 # jetson-nano-setup
 Helper commands to get started with using machine learning libraries on Nvidia Jetson Nano
 
-### Install pytorch on jetson nano
-
 **Note:** It will take more time than usual (e.g. ~30 mins for pandas) to install packages using pip in jetson nano as most of them are built from source (Ref: [https://forums.developer.nvidia.com/t/jetson-nano-for-data-science/112805](https://forums.developer.nvidia.com/t/jetson-nano-for-data-science/112805))
 
 ### Install pytorch
