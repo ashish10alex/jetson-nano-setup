@@ -51,7 +51,7 @@ pip3 install librosa
 ### Get cuda version** 
 `cat /usr/local/cuda-10.2/version.txt` 
 
-### Unable to install torchaudio tried**
+### Unable to install torchaudio tried
 
 `pip3 install torchaudio` wont work
 Alternate bulding from source will also throw an error - 
