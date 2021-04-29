@@ -62,3 +62,8 @@ A workaround has been mentioned here - [https://github.com/pytorch/audio/issues/
 
 ### View gpu stats - nvidia-smi command doesnt work
 https://github.com/rbonghi/jetson_stats
+
+### Use Laptop or Desktop keyboard on nano 
+https://github.com/debauchee/barrier
+https://www.youtube.com/watch?v=-G9IIauHOhA
+Note - You will initially need a keyboard and mouse to setup your device jetson device as client 
