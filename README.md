@@ -34,10 +34,8 @@ Ref - https://learninone209186366.wordpress.com/2019/07/24/how-to-install-the-li
 ```bash
 sudo pip3 install --upgrade setuptools
 sudo pip3 install cython
-
-
 #Install LLVM 9 or above to install llvmlite (dependecy for librosa)
-```
+
 sudo apt install llvm-10
 cd /usr/bin
 #create a simi-link 
@@ -49,7 +47,6 @@ pip3 install llvmlite
 sudo apt-get install libblas-dev liblapack-dev libatlas-base-dev gfortran
 pip3 install sounfile
 pip3 install librosa
-
 ```
 
 ### Get cuda version** 
