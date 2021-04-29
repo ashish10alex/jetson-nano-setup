@@ -34,14 +34,19 @@ Ref - https://learninone209186366.wordpress.com/2019/07/24/how-to-install-the-li
 ```bash
 sudo pip3 install --upgrade setuptools
 sudo pip3 install cython
-sudo apt-get install llvm-7
-sudo pip3 install llvmlite #this might get an error but doesnt effect installation
+
+
+#Install LLVM 9 or above to install llvmlite (dependecy for librosa)
+```
+sudo apt install llvm-10
+cd /usr/bin
+#create a simi-link 
+sudo ln -s llvm-config-10 llvm-config
+#You might get an error llvm-config already exist while creating simi-link
+# In that case remove existing first - rm llvm-config
+pip3 install llvmlite
+
 sudo apt-get install libblas-dev liblapack-dev libatlas-base-dev gfortran
-
-#Incase if this installation throws LLVM_CONFIG not found, then create the ln for the llvm-config-7 as below. 
-#Just ensure that you have llvm-config under /usr/bin path
-/usr/bin$ sudo ln -s llvm-config-7 llvm-config
-
 pip3 install sounfile
 pip3 install librosa
 
