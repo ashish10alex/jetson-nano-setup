@@ -69,3 +69,8 @@ https://github.com/debauchee/barrier
 https://www.youtube.com/watch?v=-G9IIauHOhA
 
 Note - You will initially need a keyboard and mouse to setup your device jetson device as client 
+
+### Use macbook pro keyboard layout 
+Keyboard setting -> Text settings -> Add `English (UK, intl, Macintosh)`
+
+
