@@ -1,5 +1,5 @@
 # jetson-nano-setup
-Helper commands to get started with using machine learning libraries on Nvidia Jetson Nano
+Get started with using machine learning libraries on Nvidia Jetson Nano
 
 **Note:** It will take more time than usual (e.g. ~30 mins for pandas) to install packages using pip in jetson nano as most of them are built from source (Ref: [https://forums.developer.nvidia.com/t/jetson-nano-for-data-science/112805](https://forums.developer.nvidia.com/t/jetson-nano-for-data-science/112805))
 
@@ -68,9 +68,10 @@ https://github.com/debauchee/barrier
 
 https://www.youtube.com/watch?v=-G9IIauHOhA
 
-Note - You will initially need a keyboard and mouse to setup your device jetson device as client 
+**Note** - 
+You will initially need a keyboard and mouse to setup your device jetson device as client. Once you are diconnect from the network you would need to connect the external mouse and keybard again to activate the barrier client. 
 
-### Use macbook pro keyboard layout 
+**Use macbook pro keyboard layout **
 Keyboard setting -> Text settings -> Add `English (UK, intl, Macintosh)`
 
 
