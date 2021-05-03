@@ -63,6 +63,20 @@ A workaround has been mentioned here - [https://github.com/pytorch/audio/issues/
 ### View gpu stats - nvidia-smi command doesnt work
 https://github.com/rbonghi/jetson_stats
 
+## Optimizing models for  for Jetson Nano
+https://docs.nvidia.com/deeplearning/tensorrt/install-guide/index.html
+
+https://github.com/NVIDIA-AI-IOT/torch2trt
+```
+# https://github.com/NVIDIA-AI-IOT/torch2trt
+pip install nvidia-pyindex
+pip install nvidia-tensorrt
+
+git clone https://github.com/NVIDIA-AI-IOT/torch2trt
+cd torch2trt
+sudo python setup.py install --plugins
+```
+
 ### Use Laptop or Desktop keyboard on nano 
 https://github.com/debauchee/barrier
 
