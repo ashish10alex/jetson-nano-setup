@@ -67,6 +67,7 @@ https://github.com/rbonghi/jetson_stats
 https://docs.nvidia.com/deeplearning/tensorrt/install-guide/index.html
 
 https://github.com/NVIDIA-AI-IOT/torch2trt
+Issue - Need to check cuda installation corrosposing to tensorrt version ? 
 ```
 # https://github.com/NVIDIA-AI-IOT/torch2trt
 pip install nvidia-pyindex
@@ -76,6 +77,8 @@ git clone https://github.com/NVIDIA-AI-IOT/torch2trt
 cd torch2trt
 sudo python setup.py install --plugins
 ```
+
+
 
 ### Use Laptop or Desktop keyboard on nano 
 https://github.com/debauchee/barrier
