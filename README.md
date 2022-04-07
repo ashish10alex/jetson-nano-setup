@@ -86,7 +86,12 @@ https://github.com/debauchee/barrier
 https://www.youtube.com/watch?v=-G9IIauHOhA
 
 **Note** - 
-You will initially need a keyboard and mouse to setup your device jetson device as client. Once you are diconnect from the network you would need to connect the external mouse and keybard again to activate the barrier client. 
+You will initially need a keyboard and mouse to setup your device jetson device as client.
+Alternatively if you donot have a keyboard enable "On screen keyboard" from System Settings - Universal Access - Typing
+Once you are diconnect from the network you would need to connect the external mouse and keybard again to activate the barrier client.
+
+SSL issues:
+Please generate your own Barrier.pem key as described in - https://github.com/debauchee/barrier/issues/231
 
 **Use macbook pro keyboard layout **
 Keyboard setting -> Text settings -> Add `English (UK, intl, Macintosh)`
